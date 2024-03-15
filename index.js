@@ -1,6 +1,6 @@
 // Задание 1
 
-function createPhoneNumber(numbers) {
+const createPhoneNumber = (numbers) => {
   let format = "(xxx) xxx-xxxx";
 
   for (let i = 0; i < numbers.length; i++) {
@@ -13,7 +13,7 @@ console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 
 // Задание 2
 
-function uniqueInOrder(x) {
+const uniqueInOrder = (x) => {
   const result = [];
   const input = Array.isArray(x) ? x : x.split("");
 
@@ -31,7 +31,7 @@ console.log(uniqueInOrder([1, 2, 2, 3, 3]));
 
 // Задание 3
 
-function XO(str) {
+const XO = (str) => {
   let x = 0;
   let o = 0;
 
